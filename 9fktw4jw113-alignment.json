@@ -1,0 +1,124 @@
+{
+"BlastOutput2": [
+{
+    "report": {
+      "program": "blastp",
+      "version": "BLASTP 2.8.0+",
+      "reference": "Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), \"Gapped BLAST and PSI-BLAST: a new generation of protein database search programs\", Nucleic Acids Res. 25:3389-3402.",
+      "search_target": {
+        "subjects": [
+          "Query_140263"
+        ]
+      },
+      "params": {
+        "matrix": "BLOSUM62",
+        "expect": 10,
+        "gap_open": 11,
+        "gap_extend": 1,
+        "filter": "F",
+        "cbs": 2
+      },
+      "results": {
+        "bl2seq": [
+          {
+            "query_id": "Query_140261",
+            "query_title": "sp|P63015|PAX6_MOUSE Paired box protein Pax-6 OS=Mus musculus OX=10090 GN=Pax6 PE=1 SV=1",
+            "query_len": 422,
+            "hits": [
+              {
+                "num": 1,
+                "description": [
+                  {
+                    "id": "Query_140263",
+                    "title": "tr|O96791|O96791_DROME Eyeless protein (Fragment) OS=Drosophila melanogaster OX=7227 GN=ey PE=4 SV=1"
+                  }
+                ],
+                "len": 101,
+                "hsps": [
+                  {
+                    "num": 1,
+                    "bit_score": 88.1965,
+                    "score": 217,
+                    "evalue": 1.72183e-26,
+                    "identity": 40,
+                    "positive": 40,
+                    "query_from": 5,
+                    "query_to": 45,
+                    "hit_from": 61,
+                    "hit_to": 101,
+                    "align_len": 41,
+                    "gaps": 0,
+                    "qseq": "HSGVNQLGGVFVNGRPLPDSTRQKIVELAHSGARPCDISRI",
+                    "hseq": "HSGVNQLGGVFVGGRPLPDSTRQKIVELAHSGARPCDISRI",
+                    "midline": "HSGVNQLGGVFV GRPLPDSTRQKIVELAHSGARPCDISRI"
+                  },
+                  {
+                    "num": 2,
+                    "bit_score": 13.853,
+                    "score": 24,
+                    "evalue": 2.09524,
+                    "identity": 8,
+                    "positive": 8,
+                    "query_from": 300,
+                    "query_to": 329,
+                    "hit_from": 26,
+                    "hit_to": 55,
+                    "align_len": 30,
+                    "gaps": 0,
+                    "qseq": "PQPTTPVSSFTSGSMLGRTDTALTNTYSAL",
+                    "hseq": "PSPTMEAVEASTASHPHSTSSYFATTYYHL",
+                    "midline": "P PT         S    T      TY  L"
+                  },
+                  {
+                    "num": 3,
+                    "bit_score": 13.4678,
+                    "score": 23,
+                    "evalue": 2.68631,
+                    "identity": 8,
+                    "positive": 8,
+                    "query_from": 279,
+                    "query_to": 297,
+                    "hit_from": 35,
+                    "hit_to": 54,
+                    "align_len": 20,
+                    "gaps": 1,
+                    "qseq": "SNTPSHIPISSS-FSTSVYQ",
+                    "hseq": "ASTASHPHSTSSYFATTYYH",
+                    "midline": "  T SH    SS F T  Y "
+                  },
+                  {
+                    "num": 4,
+                    "bit_score": 12.6974,
+                    "score": 21,
+                    "evalue": 5.15445,
+                    "identity": 5,
+                    "positive": 5,
+                    "query_from": 361,
+                    "query_to": 376,
+                    "hit_from": 27,
+                    "hit_to": 42,
+                    "align_len": 16,
+                    "gaps": 0,
+                    "qseq": "SPSVNGRSYDTYTPPH",
+                    "hseq": "SPTMEAVEASTASHPH",
+                    "midline": "SP        T   PH"
+                  }
+                ]
+              }
+            ],
+            "stat": {
+              "hsp_len": 0,
+              "eff_space": 32080,
+              "kappa": 0.041,
+              "lambda": 0.267,
+              "entropy": 0.14
+            }
+          }
+        ]
+      }
+    }
+  }
+]
+}
+
+
